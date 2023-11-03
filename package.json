@@ -1,0 +1,72 @@
+{
+	"name": "@nivalis/prettier-config",
+	"version": "1.0.0",
+	"packageManager": "bun@1.0.8",
+	"description": "Prettier config used at Nivalis Studio",
+	"keywords": [
+		"prettier",
+		"prettier config"
+	],
+	"license": "MIT",
+	"homepage": "https://github.com/nivalis-studio/prettier-config#readme",
+	"bugs": {
+		"url": "https://github.com/nivalis-studio/prettier-config/issues"
+	},
+	"repository": "https://github.com/nivalis-studio/prettier-config",
+	"files": [
+		"index.js"
+	],
+	"main": "index.js",
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 0"
+	},
+	"dependencies": {
+		"prettier": "^3.0.3"
+	},
+	"engines": {
+		"node": ">=10.0.0"
+	},
+	"prettier": {
+		"arrowParens": "avoid",
+		"bracketSpacing": false,
+		"jsxSingleQuote": true,
+		"singleQuote": true,
+		"trailingComma": "all",
+		"useTabs": true,
+		"proseWrap": "always",
+		"printWidth": 80,
+		"tabWidth": 2,
+		"bracketSameLine": false,
+		"embeddedLanguageFormatting": "auto",
+		"endOfLine": "lf",
+		"htmlWhitespaceSensitivity": "css",
+		"insertPragma": false,
+		"quoteProps": "preserve",
+		"requirePragma": false,
+		"semi": true,
+		"singleAttributePerLine": false,
+		"overrides": [
+			{
+				"files": [
+					"**/*.json"
+				],
+				"options": {
+					"useTabs": false
+				}
+			},
+			{
+				"files": [
+					"**/*.yml",
+					"**/*.yaml"
+				],
+				"options": {
+					"useTabs": false,
+					"singleQuote": false
+				}
+			}
+		]
+	}
+}
