@@ -1,6 +1,6 @@
 {
 	"name": "@nivalis/prettier-config",
-	"version": "3.2.4",
+	"version": "3.2.5",
 	"packageManager": "bun@1.0.8",
 	"description": "Prettier config used at Nivalis Studio",
 	"keywords": [
@@ -12,7 +12,10 @@
 	"bugs": {
 		"url": "https://github.com/nivalis-studio/prettier-config/issues"
 	},
-	"repository": "https://github.com/nivalis-studio/prettier-config",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nivalis-studio/prettier-config.git"
+	},
 	"files": [
 		"index.js"
 	],
