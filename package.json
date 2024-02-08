@@ -27,7 +27,7 @@
 		"test": "echo \"Error: no test specified\" && exit 0"
 	},
 	"dependencies": {
-		"prettier": "3.2.4"
+		"prettier": "3.2.5"
 	},
 	"prettier": {
 		"arrowParens": "avoid",
