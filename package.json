@@ -1,6 +1,6 @@
 {
 	"name": "@nivalis/prettier-config",
-	"version": "3.2.5",
+	"version": "3.2.6-beta.0",
 	"packageManager": "bun@1.0.8",
 	"description": "Prettier config used at Nivalis Studio",
 	"keywords": [
