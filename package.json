@@ -1,7 +1,7 @@
 {
 	"name": "@nivalis/prettier-config",
 	"version": "3.2.6-beta.0",
-	"packageManager": "bun@1.0.8",
+	"packageManager": "bun@1.1.12",
 	"description": "Prettier config used at Nivalis Studio",
 	"keywords": [
 		"prettier",
@@ -27,7 +27,7 @@
 		"test": "echo \"Error: no test specified\" && exit 0"
 	},
 	"dependencies": {
-		"prettier": "3.2.5"
+		"prettier": "3.3.1"
 	},
 	"prettier": {
 		"arrowParens": "avoid",
