@@ -40,8 +40,8 @@ Create the following file `.prettierrc.js`
 
 ```javascript
 module.exports = {
-	...require('@nivalis/prettier-config'),
-	plugins: [require.resolve('prettier-plugin-tailwindcss')],
+  ...require('@nivalis/prettier-config'),
+  plugins: [require.resolve('prettier-plugin-tailwindcss')],
 };
 ```
 
