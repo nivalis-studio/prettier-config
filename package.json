@@ -1,7 +1,7 @@
 {
   "name": "@nivalis/prettier-config",
   "version": "3.5.3",
-  "packageManager": "bun@1.1.12",
+  "packageManager": "bun@1.2.5",
   "description": "Prettier config used at Nivalis Studio",
   "keywords": [
     "prettier",
