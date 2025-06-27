@@ -27,7 +27,7 @@
     "lint": "prettier --write ."
   },
   "dependencies": {
-    "prettier": "3.6.1"
+    "prettier": "3.6.2"
   },
   "prettier": {
     "arrowParens": "avoid",
